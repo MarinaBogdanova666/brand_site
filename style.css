@@ -410,8 +410,8 @@ color: #f16d7f;
 
 .offers_text {
     position: absolute;
-    padding-top: 140px;
-    padding-left: 40px;
+    top: 140px;
+    left: 40px;
     font-family: Lato;
     font-size: 53.7px;
     text-transform: uppercase;
@@ -453,4 +453,8 @@ color: #f16d7f;
 
 .offers_delivery div {
     margin-top: 8px;
+}
+
+.offers_img {
+    position: relative;
 }
