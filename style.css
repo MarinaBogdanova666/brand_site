@@ -291,8 +291,14 @@ color: #f16d7f;
     display: flex;
 } 
 
-.img_box:hover {
+
+.item:hover .img_box {
     filter: brightness(50%);
+}
+
+.add {
+    display: flex;
+    justify-content: center;
 }
 
 .add_box {
@@ -300,7 +306,14 @@ color: #f16d7f;
     top: 98px;
     display: none;
     justify-content: center;
-    width: 100%;
+    width: max-content;
+    border: 1px solid #fff;
+    padding: 5px  10px;
+    align-items: center;
+}
+
+.add_box img {
+    margin-right: 7px;
 }
 
 .item {
@@ -321,6 +334,11 @@ color: #f16d7f;
 .item:hover {
     background-color: #fff;
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+
+}
+
+.item:hover .add_box {
+    display: flex;
 }
 
 .box_products {
@@ -375,4 +393,64 @@ color: #f16d7f;
 .browse_all:hover {
     background-color: #b42437c9;
     border: #741d1d;
+}
+
+.container_offers {
+    display: flex;
+    justify-content: center;
+    margin-top: 115px;
+}
+
+.offers {
+    display: flex;
+    width: 1140px;
+    text-decoration: none;
+
+}
+
+.offers_text {
+    position: absolute;
+    padding-top: 140px;
+    padding-left: 40px;
+    font-family: Lato;
+    font-size: 53.7px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.offers_text p {
+    font-size: 32.2px;
+}
+
+.offers_delivery {
+    display: flex;
+    align-items: flex-start;
+}
+
+.offers_details {
+    padding: 45px 40px 65px 40px;
+    background-color: #222224;
+    display: flex;
+    flex-direction: column;
+    height: 419px;
+    justify-content: space-between;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fbfbfb;
+}
+
+.offers_icon {
+    margin-right: 30px;
+}
+
+.offers_p {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.offers_delivery div {
+    margin-top: 8px;
 }
