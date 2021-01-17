@@ -240,3 +240,139 @@ button:hover {
 .menu_list li a:hover {
 color: #f16d7f;
 }
+
+.container_fetured {
+    width: 1140px;
+    margin: 0 auto;
+
+}
+
+.products_link {
+    display: block;
+    text-decoration: none;
+    width: 263px;
+    height: 364px;
+}
+
+.box_products {
+    margin-top: 60px;
+}
+.prod_desc {
+    font-family: Lato;
+    font-size: 13px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.prod_price {
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #f16d7f;
+}
+
+.text_box {
+    padding: 12px;
+}
+
+.prod_img {
+    width: 100%;
+}
+
+.img_box {
+    display: flex;
+}
+
+.img_box:hover .add_box {
+    display: flex;
+} 
+
+.img_box:hover {
+    filter: brightness(50%);
+}
+
+.add_box {
+    position: absolute;
+    top: 98px;
+    display: none;
+    justify-content: center;
+    width: 100%;
+}
+
+.item {
+    width: 263px;
+    height: 364px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.add_text {
+    font-family: Lato;
+    font-size: 13px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.item:hover {
+    background-color: #fff;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+}
+
+.box_products {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fetured_h3 {
+    display: flex;
+    justify-content: center;
+    font-family: Lato;
+    font-size: 30px;
+    line-height: 54px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #222222;
+}
+
+.fetured_p {
+    display: flex;
+    justify-content: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #9f9f9f;
+}
+
+.browse_all {
+    padding: 15px 43px 15px 24px;
+    text-decoration: none;
+    font-family: Lato;
+    background-color: #f16d7f;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+}
+
+.browse_all img {
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+.browse_button {
+    display: flex;
+    justify-content: center;
+}
+
+.browse_all:hover {
+    background-color: #b42437c9;
+    border: #741d1d;
+}
