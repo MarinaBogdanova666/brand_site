@@ -1304,3 +1304,358 @@ button {
   color: #f16d7f;
   border: 1px solid #f16d7f;
 }
+
+.container-category {
+  display: flex;
+  justify-content: center;
+}
+
+.container-menu-left {
+  display: flex;
+  width: 245px;
+  height: 600px;
+  flex-direction: column;
+  margin-top: 70px;
+}
+.category a {
+  height: 40px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #6f6e6e;
+  border-left: 5px solid #ef5b70;
+  border-bottom: 1px solid #ebebeb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.active a {
+  color: #ef5b70; 
+}
+
+.category-li li a {
+  text-decoration: none;
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 33px;
+  font-weight: 400;
+  color: #6f6e6e;
+  padding-left: 10px;
+}
+.category-li {
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+
+.category-li li {
+  list-style-type: none;
+}
+
+.category a:hover {
+  color: #f16d7f;
+  border-bottom: 1px solid #f16d7f;
+}
+
+.category-li li a:hover {
+  color: #f16d7f;
+}
+
+.container-products {
+  display: flex;
+  width: 846px;
+  margin-left: 50px;
+  margin-top: 70px;
+  flex-direction: column;
+}
+
+.container-search-panel {
+  width: 846px;
+  height: 76px;
+  display: flex;
+  flex-direction: row;
+}
+.trending {
+  width: 282px;
+  display: flex;
+  flex-direction: column;
+}
+
+.trending-h1 {
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #6f6e6e;
+  margin-bottom: 22px;
+}
+
+.trending-top {
+  display: flex;
+  flex-direction: row;
+  width: 176px;
+  justify-content: space-between;
+}
+
+.trending-top div a {
+  text-decoration: none;
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #6f6e6e;
+}
+
+.trending-bottom div a {
+  text-decoration: none;
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #6f6e6e;
+}
+
+.trending-bottom div a:hover,
+.trending-top div a:hover {
+  color: #f16d7f;
+}
+
+.trending-bottom {
+  display: flex;
+  flex-direction: row;
+  width: 176px;
+  justify-content: space-between;
+}
+
+.top-border {
+  border-left: 1px solid #dfdfdf;
+  border-right: 1px solid #dfdfdf;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.size {
+  width: 282px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-checkbox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-checkbox label {
+  width: 70px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #6f6e6e;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+input[type=checkbox] {
+  margin-right: 8px;
+}
+
+.price-panel {
+  width: 262px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.border-price {
+  width: 262px;
+  height: 6px;
+  background-color: #f0f0f0;
+  border-radius: 3px;
+  flex-shrink: 0;
+  margin-top: 5px;
+}
+
+.bottom-price {
+  display: flex;
+  width: 262px;
+  justify-content: space-between;
+}
+
+.bottom-price div {
+  margin-top: 20px;
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 600;
+  color: #6f6e6e;
+}
+
+.container-sort {
+  display: flex;
+  width: 836px;
+  height: 40px;
+  background-color: #f3f3f3;
+  margin-top: 60px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-bottom: -15px;
+}
+
+
+.button-sort,
+.button-quantity {
+  height: 30px;
+  background-color: #ffffff;
+  border: 1px solid #ebebeb;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  color: #6f6e6e;
+  padding: 5px 10px;
+  transition: all 0.3s ease-out
+}
+
+.button-quantity {
+  margin-right: 10px;
+}
+.button-quantity i {
+  margin-left: 15px;
+  vertical-align: top;
+}
+.button-sort {
+  border-right: none;
+}
+
+.button-quantity:hover,
+.button-sort:hover {
+  background-color: #f16d7f;
+  color: @white-color;
+  border: 1px solid #f16d7f;
+}
+
+.button-sort:hover {
+  border-right: none;
+}
+.container-breadcrumbs-button {
+  display: flex;
+  width: 846px;
+  height: 47px;
+  justify-content: space-between;
+}
+
+.view-all {
+  width: 150px;
+  height: 44px;
+  background-color: #ffffff;
+  border: 1px solid #ef5b70;
+  border-radius: 3px;
+  text-decoration: none;
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #ef5b70;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-out
+}
+
+.view-all:hover {
+  border: 1px solid  #f16d7f;
+  border-radius: 3px;
+  color: @white-color;
+  background-color: #f16d7f;
+}
+
+.breadcrumbs-product {
+  width: 231px;
+  height: 44px;
+  background-color: #ffffff;
+  border: 1px solid #ebebeb;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+  transition: all 0.3s ease-out
+}
+
+.breadcrumbs-product:hover {
+  border: 1px solid #f16d7f;
+  border-radius: 3px;
+}
+.breadcrumbs-active {
+  color: #f16d7f !important;
+}
+
+.breadcrumbs-product a {
+  text-decoration: none;
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #c4c4c4;
+}
+
+.breadcrumbs-product a:hover {
+  color: #f16d7f;
+}
+.container-offer {
+  display: flex;
+  justify-content: center;
+}
+
+.container-product-offers {
+  width: 1300px;
+  height: 341px;
+  background-color: #222224;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-bottom: -100px;
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+  margin-top: 110px;
+}
+
+.container-product-offers:hover {
+  background-color: #161616;
+}
+
+.product-offers {
+  width: 315px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+
+.product-offers p {
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  color: #fbfbfb;
+}
+
+.product-offers-h1 {
+  font-family: Lato;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  color: #fbfbfb;
+}
