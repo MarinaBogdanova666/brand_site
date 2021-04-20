@@ -1,0 +1,28 @@
+[
+    {
+        "id_product": 7,
+        "product_name": "Пиджак",
+        "price": 780,
+        "img": "products_man7.png",
+        "sizes": [
+            "S",
+            "XXS",
+            "XS",
+            "XL",
+            "XXL"
+        ],
+        "quantity": 1
+    },
+    {
+        "id_product": 1,
+        "product_name": "Куртка",
+        "price": 1550,
+        "img": "products_man1.png",
+        "sizes": [
+            "L",
+            "M",
+            "S"
+        ],
+        "quantity": 1
+    }
+]

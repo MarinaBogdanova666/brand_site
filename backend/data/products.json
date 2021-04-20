@@ -1,0 +1,67 @@
+
+[
+	{
+		"id_product": 1,
+		"product_name": "Куртка",
+		"price": 1550,
+		"img": "products_man1.png",
+		"sizes": ["L","M","S"]
+
+	},
+	{
+		"id_product": 2,
+		"product_name": "Пальто",
+		"price": 1000,
+		"img": "products_man2.png",
+		"sizes": ["L","M","S","XXS","XS","XL","XXL"]
+	},
+	{
+		"id_product": 3,
+		"product_name": "Рюкзак",
+		"price": 560,
+		"img": "products_man3.png",
+		"sizes":["Oversize"]
+	},
+	{
+		"id_product": 4,
+		"product_name": "Ремень",
+		"price": 500,
+		"img": "products_man4.png",
+		"sizes":["Oversize"]
+	},
+	{
+		"id_product": 5,
+		"product_name": "Панама",
+		"price": 460,
+		"img": "products_man5.png",
+		"sizes": ["L","M","S"]
+	},
+	{
+		"id_product": 6,
+		"product_name": "Бомбер",
+		"price": 1000,
+		"img": "products_man6.png",
+		"sizes": ["L","M","S","XXS","XS","XL","XXL"]
+	},
+	{
+		"id_product": 7,
+		"product_name": "Пиджак",
+		"price":780,
+		"img": "products_man7.png",
+		"sizes": ["S","XXS","XS","XL","XXL"]
+	},
+	{
+		"id_product": 8,
+		"product_name": "Ветровка",
+		"price": 1400,
+		"img": "products_man8.png",
+		"sizes": ["L","M","XL","XXL"]
+	},
+	{
+		"id_product": 9,
+		"product_name": "Футболка",
+		"price": 99,
+		"img": "products_man9.png",
+		"sizes": []
+	}
+]
