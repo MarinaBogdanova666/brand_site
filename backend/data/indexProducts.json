@@ -1,0 +1,50 @@
+[
+	{
+		"id_product": 1,
+		"product_name": "T-shirt",
+		"price": 55,
+		"img": "items1.png"
+	},
+	{
+		"id_product": 2,
+		"product_name": "Undershirt",
+		"price": 100,
+		"img": "items2.png"
+	},
+	{
+		"id_product": 3,
+		"product_name": "Рюкзак",
+		"price": 560,
+		"img": "items3.png"
+	},
+	{
+		"id_product": 4,
+		"product_name": "Shirt",
+		"price": 500,
+		"img": "items4.png"
+	},
+	{
+		"id_product": 5,
+		"product_name": "Blouse",
+		"price": 460,
+		"img": "items5.png"
+	},
+	{
+		"id_product": 6,
+		"product_name": "Пиджак",
+		"price":700,
+		"img": "items6.png"
+	},
+	{
+		"id_product": 7,
+		"product_name": "Breeches",
+		"price":580,
+		"img": "items7.png"
+	},
+	{
+		"id_product": 8,
+		"product_name": "Hoodie",
+		"price": 499,
+		"img": "items8.png"
+	}
+]

@@ -497,7 +497,7 @@
                 <div class="container-people">
 
                     <div class="box-products">
-                        <div v-for="product in filteredProducts" class="item">
+                        <div v-for="product in filteredProducts.slice((page-1)*10, (page-1)*10+9)" class="item">
                             <a href="single-page.html" class="products-link">
                                 <div class="img-box">
                                     <img class="prod-img" :src="'./img/' + product.img" alt="items">
@@ -505,10 +505,10 @@
                                 <div class="text-box">
                                     <p class="prod-desc">{{product.product_name}}</p>
                                     <p class="prod-price">$ {{product.price}}</p>
-                                    <p class="prod-size">
+                                    <!-- <p class="prod-size">
                                         <span v-if="product.sizes.length">Размеры в наличии: <span v-for="size in product.sizes"><b>{{size}} </b></span></span>
                                         <span v-else><b>Нет в наличии</b></span>
-                                    </p>
+                                    </p> -->
                                 </div>
                             </a>
         
@@ -525,14 +525,9 @@
 
                 <div class="container-breadcrumbs-button">
                     <div class="breadcrumbs-product">
-                        <a href="#"><i class="fas fa-chevron-left"></i></a>
-                        <a class="breadcrumbs-active" href="#">1</a>
-                        <a href="#">2</a>
-                        <a href="#">3</a>
-                        <a href="#">4</a>
-                        <a href="#">5</a>
-                        <a href="#">6...20</a>
-                        <a href="#"><i class="fas fa-chevron-right"></i></a>
+                        <a @click="(page > 1)? page-- : '' " href="#"><i class="fas fa-chevron-left"></i></a>
+                        <a v-for="pageNumber in Math.ceil(filteredProducts.length/9)" @click="page = pageNumber" v-bind:class="(page == pageNumber)? 'breadcrumbs-active' : '' " href="#">{{pageNumber}}</a>
+                        <a @click="(page < Math.ceil(filteredProducts.length/9))? page++ : '' " href="#"><i class="fas fa-chevron-right"></i></a>
                     </div>
                     <a class="view-all" href="#">View All</a>
                 </div>

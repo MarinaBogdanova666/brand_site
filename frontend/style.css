@@ -998,7 +998,7 @@ button {
   color: #222;
 }
 .table-data-right {
-  width: 625px;
+  width: 650px;
   font-family: Lato;
   font-size: 13px;
   line-height: 20px;
@@ -1006,7 +1006,7 @@ button {
   color: #656565;
   display: flex;
   justify-content: space-between;
-  margin-left: 228px;
+  margin-left: 150px;
   height: 30px;
   align-items: center;
 }
@@ -1038,6 +1038,8 @@ button {
   padding-bottom: 22px;
   margin-top: 90px;
 }
+
+
 .head-right {
   justify-content: space-between;
   display: flex;
@@ -1063,6 +1065,12 @@ button {
   font-weight: 400;
   color: #575757;
   text-transform: none;
+}
+
+.cartQuantity{
+  display: flex;
+  align-items: center;
+  margin-right: -50px;
 }
 .data-color {
   margin-top: 33px;
@@ -1791,7 +1799,7 @@ input[type=radio] {
   border: 1px solid rgb(201, 231, 238);
   border-radius: 10px;
   padding: 10px 20px;
-  
+  z-index: 10;
 }
 
 .emptyCart {

@@ -3,16 +3,20 @@
 	{
 		"id_product": 1,
 		"product_name": "Куртка",
-		"price": 1550,
+		"price": 999,
 		"img": "products_man1.png",
+		"imgCart107": "products_man1-107x115.png",
+		"imgCart50": "products_man1-50.png",
 		"sizes": ["L","M","S"]
 
 	},
 	{
 		"id_product": 2,
 		"product_name": "Пальто",
-		"price": 1000,
+		"price": 950,
 		"img": "products_man2.png",
+		"imgCart107": "products_man2-107x115.png",
+		"imgCart50": "products_man2-50.png",
 		"sizes": ["L","M","S","XXS","XS","XL","XXL"]
 	},
 	{
@@ -20,6 +24,8 @@
 		"product_name": "Рюкзак",
 		"price": 560,
 		"img": "products_man3.png",
+		"imgCart107": "products_man3-107x115.png",
+		"imgCart50": "products_man3-50.png",
 		"sizes":["Oversize"]
 	},
 	{
@@ -27,6 +33,8 @@
 		"product_name": "Ремень",
 		"price": 500,
 		"img": "products_man4.png",
+		"imgCart107": "products_man4-107x115.png",
+		"imgCart50": "products_man4-50.png",
 		"sizes":["Oversize"]
 	},
 	{
@@ -34,13 +42,17 @@
 		"product_name": "Панама",
 		"price": 460,
 		"img": "products_man5.png",
+		"imgCart107": "products_man5-107x115.png",
+		"imgCart50": "products_man5-50.png",
 		"sizes": ["L","M","S"]
 	},
 	{
 		"id_product": 6,
 		"product_name": "Бомбер",
-		"price": 1000,
+		"price": 859,
 		"img": "products_man6.png",
+		"imgCart107": "products_man6-107x115.png",
+		"imgCart50": "products_man6-50.png",
 		"sizes": ["L","M","S","XXS","XS","XL","XXL"]
 	},
 	{
@@ -48,20 +60,122 @@
 		"product_name": "Пиджак",
 		"price":780,
 		"img": "products_man7.png",
+		"imgCart107": "products_man7-107x115.png",
+		"imgCart50": "products_man7-50.png",
 		"sizes": ["S","XXS","XS","XL","XXL"]
 	},
 	{
 		"id_product": 8,
 		"product_name": "Ветровка",
-		"price": 1400,
+		"price": 998,
 		"img": "products_man8.png",
+		"imgCart107": "products_man8-107x115.png",
+		"imgCart50": "products_man8-50.png",
 		"sizes": ["L","M","XL","XXL"]
 	},
 	{
 		"id_product": 9,
 		"product_name": "Футболка",
-		"price": 99,
+		"price": 399,
 		"img": "products_man9.png",
+		"imgCart107": "products_man9-107x115.png",
+		"imgCart50": "products_man9-50.png",
 		"sizes": []
+	},
+	{
+		"id_product": 10,
+		"product_name": "T-shirt",
+		"price": 155,
+		"img": "items1.jpg",
+		"imgCart107": "items1-107x115.jpg",
+		"imgCart50": "items1-50.jpg"
+	},
+	{
+		"id_product": 11,
+		"product_name": "Undershirt",
+		"price": 100,
+		"img": "items2.jpg",
+		"imgCart107": "items2-107x115.jpg",
+		"imgCart50": "items2-50.jpg"
+	},
+	{
+		"id_product": 12,
+		"product_name": "Backpack",
+		"price": 560,
+		"img": "items3.jpg",
+		"imgCart107": "items3-107x115.jpg",
+		"imgCart50": "items3-50.jpg"
+	},
+	{
+		"id_product": 13,
+		"product_name": "Shirt",
+		"price": 500,
+		"img": "items4.jpg",
+		"imgCart107": "items4-107x115.jpg",
+		"imgCart50": "items4-50.jpg"
+	},
+	{
+		"id_product": 14,
+		"product_name": "Blouse",
+		"price": 460,
+		"img": "items5.jpg",
+		"imgCart107": "items5-107x115.jpg",
+		"imgCart50": "items5-50.jpg"
+	},
+	{
+		"id_product": 15,
+		"product_name": "Blazer",
+		"price":700,
+		"img": "items6.jpg",
+		"imgCart107": "items6-107x115.jpg",
+		"imgCart50": "items6-50.jpg"
+	},
+	{
+		"id_product": 16,
+		"product_name": "Breeches",
+		"price":580,
+		"img": "items7.jpg",
+		"imgCart107": "items7-107x115.jpg",
+		"imgCart50": "items7-50.jpg"
+	},
+	{
+		"id_product": 17,
+		"product_name": "Hoodie",
+		"price": 499,
+		"img": "items8.jpg",
+		"imgCart107": "items8-107x115.jpg",
+		"imgCart50": "items8-50.jpg"
+	},
+	{
+		"id_product": 18,
+		"product_name": "Leggins",
+		"price": 260,
+		"img": "women-1.png",
+		"imgCart107": "women-1-107x115.png",
+		"imgCart50": "women-1-50.png"
+	},
+	{
+		"id_product": 19,
+		"product_name": "Sweater",
+		"price":170,
+		"img": "women-2.png",
+		"imgCart107": "women-2-107x115.png",
+		"imgCart50": "women-2-50.png"
+	},
+	{
+		"id_product": 20,
+		"product_name": "Top",
+		"price":101,
+		"img": "women-3.png",
+		"imgCart107": "women-3-107x115.png",
+		"imgCart50": "women-3-50.png"
+	},
+	{
+		"id_product": 21,
+		"product_name": "Sil",
+		"price": 215,
+		"img": "women-4.png",
+		"imgCart107": "women-4-107x115.png",
+		"imgCart50": "women-4-50.png"
 	}
 ]

@@ -35,6 +35,7 @@ const getCart = () => {
     return JSON.parse(fileData);
 };
 
+
 const addToCart = (id) =>{
     let cartData = getCart();
     let productsData = getProducts();
