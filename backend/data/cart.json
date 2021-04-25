@@ -1,1 +1,38 @@
-[]
+[
+    {
+        "id_product": 12,
+        "product_name": "Backpack",
+        "price": 560,
+        "img": "items3.jpg",
+        "imgCart107": "items3-107x115.jpg",
+        "imgCart50": "items3-50.jpg",
+        "quantity": 1
+    },
+    {
+        "id_product": 20,
+        "product_name": "Top",
+        "price": 101,
+        "img": "women-3.png",
+        "imgCart107": "women-3-107x115.png",
+        "imgCart50": "women-3-50.png",
+        "quantity": 3
+    },
+    {
+        "id_product": 21,
+        "product_name": "Sil",
+        "price": 215,
+        "img": "women-4.png",
+        "imgCart107": "women-4-107x115.png",
+        "imgCart50": "women-4-50.png",
+        "quantity": 2
+    },
+    {
+        "id_product": 11,
+        "product_name": "Undershirt",
+        "price": 100,
+        "img": "items2.jpg",
+        "imgCart107": "items2-107x115.jpg",
+        "imgCart50": "items2-50.jpg",
+        "quantity": 1
+    }
+]
