@@ -99,6 +99,7 @@ button {
 }
 .cart {
   margin: 5px 25px;
+  position: relative;
 }
 .menu {
   display: flex;
@@ -1039,6 +1040,10 @@ button {
   margin-top: 90px;
 }
 
+.table-head-right-del {
+  margin-left: 38px;
+}
+
 
 .head-right {
   justify-content: space-between;
@@ -1070,7 +1075,8 @@ button {
 .cartQuantity{
   display: flex;
   align-items: center;
-  margin-right: -50px;
+  margin-right: -23px;
+  margin-left: -22px;
 }
 .data-color {
   margin-top: 33px;
@@ -1792,18 +1798,21 @@ input[type=radio] {
 .cart-block {
   width: 400px;
   min-height: 50px;
-  background-color: rgba(144, 175, 214, 0.87);
   position: absolute;
   top: 90px;
   right: 160px;
-  border: 1px solid rgb(201, 231, 238);
-  border-radius: 10px;
   padding: 10px 20px;
   z-index: 10;
+
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #8e8e8e;
+  
+  transition: all 0.3s ease-out;
 }
 
 .emptyCart {
-  color: white;
+  color: #646464;
   align-items: center;
   margin-top: 8px;
   margin-left: 10px;
@@ -1813,12 +1822,30 @@ input[type=radio] {
 
 .cart-item {
   display: flex;
-  font-size: 16px;
+  font-size: 13px;
   width: 100%;
   justify-content: space-between;
   align-items: center;
   margin: 10px 0;
-  color: white;
+  color: #646464;
+}
+
+.cart-button{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 120px;
+}
+
+.cart-item:hover{
+  box-shadow: 0 5px 5px rgba(51, 51, 51, 0.16);
+}
+
+.cart-item-h3 {
+  width: 93px;
+}
+
+.total {
+  width: 45px;
 }
 
 .del-btn {
@@ -1827,10 +1854,40 @@ input[type=radio] {
   height: 30px;
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: red;
+  color: #f16d7f;
   font-size: 18px;
   background-color: rgba(0, 0, 0, 0);
   transition: all 0.2s ease-out;
   border-radius: 4px;
   cursor: pointer;
+}
+
+.my-cart {
+  padding: 10px 13px 10px 19px;
+  background-color: #f16d7f;
+  text-decoration: none;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  transition: all 0.2s ease-out;
+}
+.my-cart:hover {
+  background-color: #fff;
+  color: #f16d7f;
+  outline: 1px solid #f16d7f;
+}
+
+.quant-cart{
+  width: 23px;
+  height: 21px;
+  background-color: #f16d7f;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  
+  position: absolute;
+  top: -16px;
+  right: -10px;
 }

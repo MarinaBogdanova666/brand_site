@@ -20,6 +20,18 @@ Vue.component('search', {
         filterProducts(){
             let regexp = new RegExp(this.userSearch, "i");
             this.$parent.filteredProducts = this.$parent.allProducts.filter(elem => regexp.test(elem.product_name));
+        },
+        applySearch(){
+
+            let currentLocation = window.location;
+            let url = new URL(currentLocation);
+            let searchText = url.searchParams.get("user-search");
+
+            if(searchText){
+                this.userSearch = searchText;
+                this.filterProducts();
+            }
+            
         }
     },
 })

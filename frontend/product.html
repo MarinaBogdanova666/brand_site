@@ -20,11 +20,14 @@
                         BRAN<b>D</b>
                         </div>
                     </a>
-                    <search></search>
+                    <search ref="searchComponent"></search>
                 </div>
 
                 <div class="header-right">
-                    <a class="cart" @click="toggleCart"><img src="img/shopping-card.svg" alt="cart"></a>
+
+                    <a class="cart"  @click="toggleCart">
+                        <div v-if="goods.length" class="quant-cart">{{goods.reduce((sum, elem) => sum + elem.quantity, 0)}}</div>
+                        <img src="img/shopping-card.svg" alt="cart"></a>
                     <cart :goods="goods" :show-cart="showCart"></cart>
                     <a class="myacc" href="#">My Account 
                         <i class="fas fa-sort-down"></i>
@@ -446,7 +449,11 @@
             </div>
 
             <div class="container-products">
-                <div class="container-search-panel">
+
+
+                <!-- В РАЗРАБОТКЕ -->
+
+                <!-- <div class="container-search-panel">
 
                     <div class="trending">
                         <span class="trending-h1">Trending now</span>
@@ -483,16 +490,15 @@
                             <div>$400</div>
                         </div>
                     </div>
-                </div>
-
-                <div class="container-sort"> 
+                </div> -->
+                <!-- <div class="container-sort"> 
                     <div>
                         <button class="button-sort">Sort By</button><button class="button-quantity">Name<i class="fas fa-sort-down"></i></button>
                     </div>
                     <div>
                         <button class="button-sort">Show</button><button class="button-quantity">09<i class="fas fa-sort-down"></i></button>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="container-people">
 

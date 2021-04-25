@@ -16,6 +16,7 @@ let app = new Vue({
     mounted: function(){
         this.getProducts();
         this.getCart();
+        
     },
     methods: {
         getProducts(){
@@ -24,6 +25,7 @@ let app = new Vue({
                                                 .then((products) => {
                                                     this.allProducts = products;
                                                     this.filteredProducts = products;
+                                                    this.$refs.searchComponent.applySearch();
                                                 })
                     )
                     .catch(error => console.log(error))

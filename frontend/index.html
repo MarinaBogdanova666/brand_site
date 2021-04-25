@@ -28,7 +28,7 @@
                             Browse
                             <i class="fas fa-sort-down"></i>
                         </button>
-                        <input name="userSearch"  type="text" placeholder="Search for Item...">
+                        <input name="user-search"  type="text" placeholder="Search for Item...">
                         <button class="search-button" type="submit" >
                             <i class="fas fa-search"></i>
                         </button>
@@ -36,7 +36,10 @@
                 </div>
 
                 <div class="header-right">
-                    <a class="cart" @click="toggleCart"><img src="img/shopping-card.svg" alt="cart"></a>
+
+                    <a class="cart"  @click="toggleCart">
+                        <div v-if="goods.length" class="quant-cart">{{goods.reduce((sum, elem) => sum + elem.quantity, 0)}}</div>
+                        <img src="img/shopping-card.svg" alt="cart"></a>
                     <cart :goods="goods" :show-cart="showCart"></cart>
                     <a class="myacc" href="#">My Account 
                         <i class="fas fa-sort-down"></i>
